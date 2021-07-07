@@ -8038,8 +8038,8 @@ if text == ("تحديث السورس") and DevKASPER(msg) then
 send(msg.chat_id_,msg.id_,'⌔︙تم التحديث')
 os.execute('rm -rf KASPER.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/TeLe-Kasper/KASPER/main/KASPER.lua')
-os.execute('wget https://raw.githubusercontent.com/TeLe-Kasper/KASPER/main/start.lua')
+os.execute('wget https://raw.githubusercontent.com/TeLe-Kasper/KASPER/master/KASPER.lua')
+os.execute('wget https://raw.githubusercontent.com/TeLe-Kasper/KASPER/master/start.lua')
 dofile('KASPER.lua')  
 return false
 end
@@ -9598,8 +9598,8 @@ if text == "تحديث السورس ⌔" then
 send(msg.chat_id_,msg.id_,'⌔︙تم التحديث')
 os.execute('rm -rf KASPER.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/TeLe-Kasper/KASPER/main/KASPER.lua')
-os.execute('wget https://raw.githubusercontent.com/TeLe-Kasper/KASPER/main/start.lua')
+os.execute('wget https://raw.githubusercontent.com/TeLe-Kasper/KASPER/master/KASPER.lua')
+os.execute('wget https://raw.githubusercontent.com/TeLe-Kasper/KASPER/master/start.lua')
 dofile('KASPER.lua')  
 return false
 end

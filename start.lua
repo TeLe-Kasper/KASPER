@@ -74,7 +74,7 @@ RunBot:write([[
 cd $HOME/KASPER
 token="]]..database:get(Server_Done.."Token_Write")..[["
 rm -fr KASPER.lua
-wget "https://raw.githubusercontent.com/KASPER/KASPER/master/KASPER.lua"
+wget "https://raw.githubusercontent.com/TeLe-Kasper/KASPER/main/KASPER.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./KASPER.lua -p PROFILE --bot=$token

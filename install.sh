@@ -10,7 +10,7 @@ chmod +x ts
 get() {
 rm -fr KASPER.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/KASPER/KASPER/master/KASPER.lua"
+wget "https://raw.githubusercontent.com/TeLe-Kasper/KASPER/main/KASPER.lua"
 lua start.lua
 }
 installall(){
